@@ -3,12 +3,12 @@ package modulo1;
 public class Funcoes {
 
 	public static void main(String[] args) {
-		String nome = "Hello World";
-		saudacao(nome);
+		int resultado = soma(2,4);
+		System.out.println(resultado);
 	}
 
-	public static void saudacao(String nome) {
-		System.out.println("Nome do primeiro programa: " + nome);
+	public static int soma(int num1, int num2) {
+		System.out.println("Resultado de "+num1+" + "+num2);
+		return num1 + num2;
 	}
-
 }
