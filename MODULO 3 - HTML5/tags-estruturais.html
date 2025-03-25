@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trabalhando com tags semânticas</title>
+	<style>
+		nav {
+			border: 1px solid red;
+		}
+	</style>
+</head>
+
+<body>
+
+	<header> <!--CABEÇALHO DO SITE-->
+		<img src="imagens/logo  canva.png" width="250" height="250" alt="imagem do perfil">
+		<figcaption>Legenda da imagem</figcaption>
+		<h1> CURRICULO - VSCODE</h1>
+
+		<nav> <!--MENU DE NAVEGAÇÃO-->
+			<span>Inicio</span>
+			<span>Contato</span>
+			<span>Sobre</span>
+		</nav>
+
+	</header>
+	<!--<section> Representa uma seção genérica contida em um documento HTML, 
+  geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo.-->
+	<section>
+		Dados pessoais:
+		<ol>
+			<li>
+				<article>
+					Documentos
+				</article>
+			</li>
+			
+			<li>
+				<article>
+					Dados de contato
+				</article>
+			</li>
+	</section>
+	</ol>
+	<!-- Tag <article> - Usada para definir como artigo o conteúdo da página;
+			Normalmente usado em fóruns, blogs e notícias;
+			importante para separar semanticamente o conteúdo.-->
+
+	<!-- O elemento <main> define o conteúdo principal dentro do <body> em seu documento ou aplicação.
+    Entende-se como conteúdo principal aquele relacionado diretamente com o tópico central da página 
+    ou com a funcionalidade central da aplicação. Cada página só pode ter uma tag main -->
+	<main>
+		<header>Informações Acadêmicas</header>
+
+		<section>
+			Ensino Superior - Editor de código-fonte (2015) <br>
+			Faculdade Microsoft
+		</section>
+
+		<section>
+			Formação complementar<br>
+			<article>Curso HTML módulo 3 - Proway EAD</article><br />
+		</section>
+
+	</main>
+
+	<aside>
+		<!--INICIO DA TABELA-->
+		<table border="1"> <!--border=1 , não é mais utilizado no html5-->
+			<caption> <!--tag utilizada para criar uma legenda para a tabela.-->
+				<h4>Horários de estudos</h4>
+			</caption>
+			<thead> <!--CABEÇALHO DA TABELA-->
+				<tr>
+					<th>
+						Dias da Semana
+					</th>
+					<th>Seg</th>
+					<th>Ter</th>
+					<th>Qua</th>
+					<th>Qui</th>
+				</tr>
+			</thead>
+
+			<tbody> <!-- TAG USADA PARA AGRUPAR O CONTEÚDO DO CORPO DA TABELA-->
+				<tr> <!--LINHA 1-->
+					<td>Manhã: </td>
+					<td>Html</td>
+					<td>Android</td>
+					<td>Cisco</td>
+					<td rowspan="2">Kultivi</td>
+				</tr>
+
+				<tr> <!--LINHA 2-->
+					<td>Tarde: </td>
+					<td>GLPI</td>
+					<td>Suporte</td>
+					<td>Glpi</td>
+				</tr>
+			</tbody>
+
+			<tfoot> <!--RADAÉ DA TABELA-->
+				<tr>
+					<th>
+						Horas de estudos
+					</th>
+					<th>15</th>
+					<th>25</th>
+					<th>10</th>
+					<th>20</th>
+				</tr>
+			</tfoot>
+
+		</table> <!--FIM DA TABELA-->
+
+	</aside>
+
+	<aside> <!-- Ao lado;
+ 			Muito utilizado para colocar propagandas no site;
+			A tag define um conteúdo ao lado de um artigo. -->
+
+		<p>Algum conteudo relacionado a um &lt;article&gt;</p>
+	</aside>
+
+	<footer> <!--RODAPÉ-->
+		<nav>
+			LinkedIn
+			Twitter
+			YouTube
+			Orkut
+		</nav>
+		&copy; Programa start Capgemini - Todos os Direitos Reservados
+	</footer>
+
+</body>
+
+</html>
