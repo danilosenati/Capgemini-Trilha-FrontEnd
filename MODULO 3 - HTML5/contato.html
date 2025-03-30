@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <style>
-        
+
     </style>
 </head>
+
 <body>
-    <!-- 11.L  -->
-    
+    <!-- 13.A  -->
+
     <h1>Contato</h1>
     <form>
-        <input type="text" name="" placeholder="Digite algo"/> <br/> <br/>
-        
-        <input type="email" name="email" placeholder="Digite seu email"/> <br/> <br/>
+        <input type="text" name="" placeholder="Digite algo" /> <br /> <br />
 
-        <input type="number" name="idade" placeholder="Idade"/> <br> <br>
+        <input type="email" name="email" placeholder="Digite seu email" /> <br /> <br />
+
+        <input type="number" name="idade" placeholder="Idade" /> <br> <br>
 
         <!-- CAMPO UTILIZADO PARA BUSCAS -->
-         <input type="search" name="busca" placeholder="Buscar"/> <br> <br>
+        <input type="search" name="busca" placeholder="Buscar" /> <br> <br>
 
-         <!-- CAMPO UTILIZADO PARA TELEFONE -->
-         <input type="tel" name="telefone" placeholder="(xx) xxxxx-xxxx"/> <br> <br>
+        <!-- CAMPO UTILIZADO PARA TELEFONE -->
+        <input type="tel" name="telefone" placeholder="(xx) xxxxx-xxxx" /> <br> <br>
 
-         <!-- CAMPO UTILIZADO PARA URL -->
-         <input type="url" name="linkedin" placeholder="Linkedin URL"/><br> <br>
-        
-         <h3>Horário:</h3>  
-        <input type="radio" name="horario" value="manha"/>Manhã
+        <!-- CAMPO UTILIZADO PARA URL -->
+        <input type="url" name="linkedin" placeholder="Linkedin URL" /><br> <br>
+
+        <!-- UTILIZANDO DATALIST -->
+        Gênero: <input list="genero" name="sexo" />
+        <datalist id="genero">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Outros">Outros</option>
+
+        </datalist>
+
+
+        <h3>Horário:</h3>
+        <input type="radio" name="horario" value="manha" />Manhã
         <input type="radio" name="horario" value="tarde">Tarde
         <input type="radio" name="horario" value="noite">Noite
 
         <h3>Dia da semana:</h3>
-        <input type="checkbox" name="dia-da-semana" value="2"/> Segunda-feira<br>
-        <input type="checkbox" name="dia-da-semana" value="3"/> Terça-feira<br>
-        <input type="checkbox" name="dia-da-semana" value="4"/> Quarta-feira<br><br>
+        <input type="checkbox" name="dia-da-semana" value="2" /> Segunda-feira<br>
+        <input type="checkbox" name="dia-da-semana" value="3" /> Terça-feira<br>
+        <input type="checkbox" name="dia-da-semana" value="4" /> Quarta-feira<br><br>
 
         <select name="estado">
             <option selected="" value="">Selecione o Estado (UF)</option>
@@ -67,12 +79,15 @@
             <option value="São Paulo">São Paulo</option>
             <option value="Sergipe">Sergipe</option>
             <option value="Tocantins">Tocantins</option>
-            </select>
+        </select>
 
-        <h3>Deixe seu comentário:</h3>
-        <textarea cols="50" rows="10">
+        <br> <br>
+        <textarea name="mensagem" cols="50" rows="10" placeholder="Deixe sua mensagem"></textarea><br>
 
-        </textarea>
+        <button type="button">Outra ação</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
     </form>
 </body>
+
 </html>
