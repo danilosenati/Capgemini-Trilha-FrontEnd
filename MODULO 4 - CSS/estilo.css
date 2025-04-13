@@ -1,3 +1,16 @@
 h2{
     color: blue;
 }
+
+#titulo{
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+.texto-roxo{
+    color: blueviolet;
+}
+
+.texto-vermelho{
+    color: red;
+}
