@@ -1,0 +1,27 @@
+/*
+RGB
+Significa: Red, Green, Blue (Vermelho, Verde, Azul)
+
+Formato: rgb(r, g, b)
+
+Exemplo: rgb(255, 0, 0) → vermelho puro
+
+Uso: Define a cor sem considerar transparência
+
+***************************************************
+
+RGBA
+
+Significa: Red, Green, Blue, Alpha (Vermelho, Verde, Azul, Alfa)
+
+Formato: rgba(r, g, b, a)
+
+Exemplo: rgba(255, 0, 0, 0.5) → vermelho com 50% de transparência
+
+Uso: Permite definir cores com transparência.
+
+*/
+
+html{
+    color: rgba(255, 125, 200, 0.5);
+}
