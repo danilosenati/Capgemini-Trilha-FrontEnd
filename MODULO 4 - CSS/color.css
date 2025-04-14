@@ -25,3 +25,8 @@ Uso: Permite definir cores com transparência.
 html{
     color: rgba(255, 125, 200, 0.5);
 }
+
+
+p{
+    color: #808080;
+}
