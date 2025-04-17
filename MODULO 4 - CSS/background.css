@@ -1,6 +1,6 @@
 html{
     color: darkblue;
-    background-color: burlywood;
+    background-color: #fff;
 }
 main{
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwSEr1Zzc5B90RL1Oi8NTUmR5smfDFywas_A&s');
@@ -15,5 +15,25 @@ main{
     contain | A imagem cabe inteira dentro do elemento (pode sobrar espaço)
     largura e altura | Ex: 100px 200px – define largura e altura específicas
     percentual | Ex: 100% 100% – estica a imagem para cobrir 100% do espaço
-    */
+    */    
+}
+
+/* FONTES 
+
+elemento {
+  font-family: nome_da_fonte, fonte_alternativa, tipo_generico;
+}
+
+A propriedade @font-face no CSS é usada pra importar e usar uma fonte personalizada, 
+que não está instalada no sistema do usuário.
+
+*/
+
+#primeiro-paragrafo{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#segundo-paragrafo{
+    font-fa
 }
