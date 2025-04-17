@@ -4,5 +4,16 @@ html{
 }
 main{
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwSEr1Zzc5B90RL1Oi8NTUmR5smfDFywas_A&s');
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: top left;
+    background-size: auto;
+    /*
+    Valor | O que faz
+    auto  | Tamanho original da imagem (padrão)
+    cover | A imagem cobre todo o elemento, mesmo que corte partes
+    contain | A imagem cabe inteira dentro do elemento (pode sobrar espaço)
+    largura e altura | Ex: 100px 200px – define largura e altura específicas
+    percentual | Ex: 100% 100% – estica a imagem para cobrir 100% do espaço
+    */
 }
