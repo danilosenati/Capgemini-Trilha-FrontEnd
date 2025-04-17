@@ -3,5 +3,6 @@ html{
     background-color: burlywood;
 }
 main{
-    background-color: #fff;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwSEr1Zzc5B90RL1Oi8NTUmR5smfDFywas_A&s');
+    background-repeat: repeat-x;
 }
