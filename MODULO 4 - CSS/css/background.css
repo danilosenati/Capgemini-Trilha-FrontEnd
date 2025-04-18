@@ -52,5 +52,6 @@ que não está instalada no sistema do usuário.
 
 #terceiro-paragrafo{
     font-style: italic;
-    font-weight: 800;
+    font-size: 1.5em;
+    font-variant: small-caps;
 }

@@ -1,0 +1,28 @@
+html{
+    
+}
+
+main{
+    
+}
+
+
+
+
+#primeiro-paragrafo{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#segundo-paragrafo{
+    color: tomato;
+    font-family: 'BungeeSpice-Regular', sans-serif;
+    
+}
+
+#terceiro-paragrafo{
+    font-style: italic;
+    font-size: 1.5em;
+    font-variant: small-caps;
+}
