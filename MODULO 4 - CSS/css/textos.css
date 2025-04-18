@@ -1,28 +1,31 @@
-html{
-    
+html {}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2rem;
+    /* ESPAÇAMENTO DA PRIMEIRA LINHA*/
+
 }
 
-main{
-    
+h1 {
+    text-align: center;
 }
 
-
-
-
-#primeiro-paragrafo{
-    color: green;
-    font-family: 'Times New Roman', Times, serif;
+p {
+    text-align: right;
 }
 
-
-#segundo-paragrafo{
-    color: tomato;
-    font-family: 'BungeeSpice-Regular', sans-serif;
-    
-}
-
-#terceiro-paragrafo{
+#primeiro-paragrafo {
     font-style: italic;
     font-size: 1.5em;
     font-variant: small-caps;
+}
+
+
+#segundo-paragrafo {}
+
+#terceiro-paragrafo {}
+
+footer p {
+    text-align: center;
 }
