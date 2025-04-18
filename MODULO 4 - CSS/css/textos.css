@@ -6,6 +6,20 @@ main {
     /* ESPAÇAMENTO DA PRIMEIRA LINHA*/
 
 }
+a{
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+/* REGRA PARA VERIFICAR O ESTADO DO LINK */
+
+a:active{ /*LINK ATIVO*/
+    color: yellow;
+}
+
+a:visited{ /*LINK VISITADO*/
+    color: green;
+}
 
 h1 {
     text-align: center;
@@ -21,10 +35,19 @@ p {
     font-variant: small-caps;
 }
 
+h1#titulo{
+    text-decoration: underline;
+}
 
-#segundo-paragrafo {}
+#segundo-paragrafo {
+    text-decoration: line-through;
+    
+}
 
-#terceiro-paragrafo {}
+#terceiro-paragrafo {
+    /* letter-spacing: 5px; */
+    text-transform: uppercase;
+}
 
 footer p {
     text-align: center;
