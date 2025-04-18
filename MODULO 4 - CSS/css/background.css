@@ -1,6 +1,6 @@
 html{
     color: darkblue;
-    background-color: #fff;
+    background-color: cornsilk;
 }
 
 main{
@@ -48,4 +48,9 @@ que não está instalada no sistema do usuário.
     color: tomato;
     font-family: 'BungeeSpice-Regular', sans-serif;
     
+}
+
+#terceiro-paragrafo{
+    font-style: italic;
+    font-weight: 800;
 }
